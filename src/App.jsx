@@ -4,11 +4,7 @@ export default function App() {
   return (
     <div className="kt-grid kt-grid--hor kt-grid--root">
     <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
-        <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
-            <div id="BrowserNotSupportedBanner" className="kt-container" style={{display:'none'}}>
-                <h1>Browser is not supported.</h1>
-                <p>This portal does not support the use of Internet Explorer, and some content may not appear or may appear incorrectly as a result. For a better browsing experience, please use Google Chrome, Firefox, Microsoft Edge or Safari.</p>
-            </div>
+        <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper" >
             <header id="m_header" className="kt-grid__item m-header " m-minimize="minimize" m-minimize-offset="200" m-minimize-mobile-offset="200">
                 <div className="kt-header__top">
                     <div className="kt-container">
@@ -27,7 +23,7 @@ export default function App() {
             </header>
             <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-grid--stretch">
                 <div className="kt-container kt-body kt-grid kt-grid--ver" id="kt_body">
-                    <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor">
+                    <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" style={{padding:'0px 5%'}}>
                         <div id="svpPortlet" className="kt-portlet">
                             <div className="kt-portlet__body">
                                 <div className="kt-header__brand-logo mb-4">
@@ -40,7 +36,7 @@ export default function App() {
                                 </div>
                                 <div className="row ">
                                     <div className="col-md-12 ">
-                                        <img src="/certificate/c1.webp" style={{width:'100%',maxHeight:'100vh'}} alt="" />
+                                        <img src="/certificate/c1.png" style={{width:'100%',maxHeight:'75vh'}} alt="" />
                                     </div>
                                 </div>
                             </div>
