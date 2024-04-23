@@ -23,12 +23,12 @@ export default function App() {
             </header>
             <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-grid--stretch">
                 <div className="kt-container kt-body kt-grid kt-grid--ver" id="kt_body">
-                    <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" style={{padding:'0px 5%'}}>
+                    <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" style={{padding:'0px 20px'}}>
                         <div id="svpPortlet" className="kt-portlet">
                             <div className="kt-portlet__body">
                                 <div className="kt-header__brand-logo mb-4">
-                                    <img alt="Dc Web" src="/images/logo-default.png" className="kt-header__brand-logo-default" />
-                                    <img alt="Smart Verify Plus" src="/images/Smart-Verify-Plus-Logo.png" className="kt-header__brand-sublogo-default pull-right" />
+                                    <img alt="Dc Web" src="/images/logo-default.png" className="kt-header__brand-logo-default logo" />
+                                    <img alt="Smart Verify Plus" src="/images/Smart-Verify-Plus-Logo.png" className="kt-header__brand-sublogo-default pull-right logo" />
                                 </div>
                                 <div className="alert alert-warning " role="alert">
                                     <div className="alert-icon"><i aria-hidden="true" className="fa fa-exclamation-triangle fa-4x"></i></div>
@@ -36,7 +36,7 @@ export default function App() {
                                 </div>
                                 <div className="row ">
                                     <div className="col-md-12 ">
-                                        <img src="/certificate/c1.png" style={{width:'100%',maxHeight:'75vh'}} alt="" />
+                                        <img src="/certificate/c1.png"  alt="" className='certificate' />
                                     </div>
                                 </div>
                             </div>

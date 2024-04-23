@@ -848,3 +848,25 @@ ul {
    left: 1196px;  
     top: 0px;  
 }  
+
+
+.certificate{
+    width: 80%;
+}
+
+@media screen and (max-width:600px) {
+    .logo{
+        width: 100px;
+    }
+    .kt-footer__wrapper{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 20px;
+    }
+    .certificate{
+        width: 100% !important;
+    }
+    .kt-portlet__body{
+        padding: 10px !important;
+    }
+}
