@@ -36,7 +36,7 @@ export default function App() {
                                 </div>
                                 <div className="row ">
                                     <div className="col-md-12 ">
-                                        <img src="/certificate/c1.png"  alt="" className='certificate' />
+                                        <img src="/certificate/harisankar-kurulayi-sabu.png"  alt="" className='certificate' />
                                     </div>
                                 </div>
                             </div>
