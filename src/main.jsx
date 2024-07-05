@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import App from './App.jsx'
-import PaymentNotice from './PaymentNotice.js'
+import PaymentNotice from './PaymentNotice.jsx'
 // import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
