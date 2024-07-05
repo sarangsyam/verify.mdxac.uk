@@ -1,0 +1,49 @@
+.payment-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  
+  .payment-box {
+    max-width: 600px;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .payment-title {
+    font-size: 1.5rem;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .payment-button {
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+  
+  .payment-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .payment-button a:hover {
+    text-decoration: underline;
+  }
+  
